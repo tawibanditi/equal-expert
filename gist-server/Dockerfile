@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY server.py .
+COPY ./gist-server/server.py .
 
 EXPOSE 8080
 
